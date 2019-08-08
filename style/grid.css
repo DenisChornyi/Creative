@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contain-grid > [class*="ba-width-"]{
+    float: left;
+
+}
+
+.contain-grid{
+    margin-left: -20px;
+    overflow: auto;
+    /*border: 1px solid #000; */
+}
+
+/
+.contain-grid + .contain-grid {
+    margin-top: 20px;
+}
+[class*="ba-width-"] {
+    width: 100%;    
+}
+.ba-width-42{
+	width: 66.666%;
+}
+.ba-width-29{
+	 width: 33.333%;
+ }
+.ba-width-50{
+	width: 50%;
+}
+.ba-width-30{
+    width: 33.333%;
+}
